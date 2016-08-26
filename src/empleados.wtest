@@ -2,10 +2,10 @@ import fixture.*
 
 test "ausentini cobra el sueldo basico" {
 	const ausentini = fixture.ausentini()
-	assert.equals(ausentini.sueldoBasico(), 5000)
+	assert.equals(5000, ausentini.sueldoBasico())
 }
 
 test "sarmiento cobra sueldo + presentismo" {
 	const sarmiento = fixture.sarmiento()
-	assert.equals(sarmiento.sueldoBasico(), 11000)
+	assert.equals(11000, sarmiento.sueldoBasico())
 }
