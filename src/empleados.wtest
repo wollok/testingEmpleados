@@ -5,8 +5,8 @@ describe "test de empleados" {
 	var sarmiento
 	
 	fixture {
-		ausentini = new EmpleadoComun(5000, false)
-		sarmiento = new EmpleadoComun(10000, true)
+		ausentini = new EmpleadoComun(sueldo = 5000)
+		sarmiento = new EmpleadoComun(sueldo = 10000, presentismo = true)
 	}
 	
 	test "ausentini cobra el sueldo basico" {

@@ -1,19 +1,9 @@
 class Empleado {
-	var sueldo
-
-	constructor(_sueldo) {
-		sueldo = _sueldo
-	}
-
-	method sueldo() = sueldo
+	var property sueldo = 0
 }
 
 class EmpleadoComun inherits Empleado {
-	var presentismo
-	
-	constructor(_sueldo, _presentismo) = super(_sueldo) {
-		presentismo = _presentismo
-	}
+	var property presentismo = false
 	
 	method valorPresentismo() {
 		if (presentismo) {
