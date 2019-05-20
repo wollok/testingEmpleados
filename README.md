@@ -1,4 +1,7 @@
 # Empleados - Testing
+ 
+[![Build Status](https://travis-ci.org/wollok/testingEmpleados.svg?branch=master)](https://travis-ci.org/wollok/testingEmpleados)
+
 
 <img src="img/employees.png" height="170" width="390">
 
