@@ -22,5 +22,5 @@ tenemos empleados que cobran un sueldo + un valor adicional (10%) por presentism
 
 # Más información
 
-En el [apunte de Testing] (https://docs.google.com/document/d/1caDE_mlP1QMfzyVpyvh-tKshjAeYLXBkXDYrTX5zFUI/edit#)
+En el [apunte de Testing](https://docs.google.com/document/d/1caDE_mlP1QMfzyVpyvh-tKshjAeYLXBkXDYrTX5zFUI/edit#)
 

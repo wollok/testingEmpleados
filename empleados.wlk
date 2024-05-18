@@ -5,14 +5,9 @@ class Empleado {
 class EmpleadoComun inherits Empleado {
 	var property presentismo = false
 	
-	method valorPresentismo() {
-		if (presentismo) {
-			return self.sueldo() * 0.1
-		} else {
-			return 0
-		}
-	}
+	method valorPresentismo() =
+		if (presentismo) self.sueldo() * 0.1 else 0
 	
-	method sueldoBasico() = return self.sueldo() + self.valorPresentismo()
+	method sueldoBasico() = self.sueldo() + self.valorPresentismo()
 	
 }
