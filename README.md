@@ -1,6 +1,6 @@
 # Empleados - Testing
  
-[![Build Status](https://travis-ci.org/wollok/testingEmpleados.svg?branch=master)](https://travis-ci.org/wollok/testingEmpleados)
+[![Build Status](https://github.com/wollok/testingEmpleados/actions/workflows/ci.yml/badge.svg)](https://github.com/wollok/testingEmpleados/actions/workflows/ci.yml)
 
 
 <img src="img/employees.png" height="170" width="390">

@@ -4,7 +4,7 @@ describe "test de empleados" {
 	var ausentini
 	var sarmiento
 	
-	fixture {
+	method initialize() {
 		ausentini = new EmpleadoComun(sueldo = 5000)
 		sarmiento = new EmpleadoComun(sueldo = 10000, presentismo = true)
 	}
